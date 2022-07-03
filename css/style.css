@@ -10,6 +10,7 @@ h1 {
 }
 section {
   display: flex;
+  padding-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -18,7 +19,7 @@ section {
 .half-width img {
   width: 80%;
 }
-.hire-me-btn {
+.link-btn {
   text-decoration: none;
   padding: 10px 40px;
   background-image: linear-gradient(orangered, tomato);
@@ -29,4 +30,12 @@ section {
 .top-ban {
   background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
+}
+.mission {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.half-width p {
+  padding-right: 100px;
 }
