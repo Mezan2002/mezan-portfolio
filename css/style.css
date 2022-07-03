@@ -2,6 +2,18 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+.half-width h1 {
+  line-height: 50%;
+}
+.half-width h2 {
+  line-height: 50%;
+}
+#hw-content {
+  margin-top: 120px;
+}
+.half-width p {
+  padding-bottom: 50px;
+}
 h1 {
   font-size: 50px;
 }
@@ -18,9 +30,11 @@ h2 {
 .half-width {
   width: 50%;
   padding-left: 5%;
+  margin: 70px 0 0 50px;
 }
 .half-width img {
   width: 80%;
+  margin-left: 25px;
 }
 .link-btn {
   text-decoration: none;
@@ -47,9 +61,12 @@ h2 {
   background-repeat: no-repeat;
   background-position: left;
 }
+.exp h1 {
+  margin-left: 77px;
+}
 .exp-item {
   width: 40%;
-  margin: 5%;
+  margin: 0 5% 5% 5%;
   padding: 20px 50px 50px 50px;
   border-radius: 5px;
   box-shadow: 10px 10px 30px gray;
