@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .orangered-color {
   color: orangered;
 }
@@ -38,4 +41,25 @@ h1 {
 }
 .half-width p {
   padding-right: 100px;
+}
+.exp {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.exp-item {
+  width: 40%;
+  margin: 5%;
+  padding: 20px 50px 50px 50px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px gray;
+}
+#fl-s-w-dev {
+  border-left: 7px solid tomato;
+}
+#jr-w-dev {
+  border-left: 7px solid navy;
+}
+footer p {
+  text-align: center;
 }
